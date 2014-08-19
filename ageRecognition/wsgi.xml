@@ -1,0 +1,7 @@
+<uwsgi>
+  <socket>127.0.0.1:3031</socket>
+  <chdir>.</chdir>
+  <pythonpath>..</pythonpath>
+  <venv>../venv</venv>
+  <module>ageRecognition.wsgi</module>
+</uwsgi>
